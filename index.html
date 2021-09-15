@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Travel Landing Page</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+          <h2 class="logo">Travel</h2>
+          <div class="toggle"></div>
+        </header>
+        <video src="explore.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+          <h2>Never Stop</h2> 
+          <h3>Exploring The World</h3>
+          <p>When it comes to booking a holiday, we know everyone likes something different - so we've designed our getaways with you in mind. Our TUI SENSATORI resorts are all about luxury, while TUI BLUE FOR ALL hotels cater for everyone, and our TUI BLUE FOR TWO collection is just for adults. Plus, our destinations range from Spain and Italy to far-flung St Lucia and Mexico - not to mention city breaks. We go above and beyond your average travel agency. As well as an award-winning airline, we've teamed up with other tour operators to give you more choice on when and where you can fly. As one of the biggest UK holiday companies, we're here whenever you need us - via our stores, website or 24/7 Holidayline.</p>
+          <a href="#about">Explore</a>
+        </div>
+        <ul class="social">
+          <li><a href="#"><img src="facebook.png"></a></li>
+          <li><a href="#"><img src="twitter.png"></a></li>
+          <li><a href="#"><img src="instagram.png"></a></li>
+        </ul>
+      </section>
+      
+
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="destination.html">Destination</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+     <section class="introduction">
+        <h1>About</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, molestias ad enim, praesentium harum eligendi aperiam perspiciatis laboriosam laborum sequi placeat numquam aliquam iste facilis omnis eaque consequatur dolore neque eum deserunt? Voluptatum accusantium deleniti corrupti at. Soluta, quos expedita?</p>
+    </section>
+  
+
+    <script>
+        const menuToggle = document.querySelector ('.toggle')
+        const showcase = document.querySelector ('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
